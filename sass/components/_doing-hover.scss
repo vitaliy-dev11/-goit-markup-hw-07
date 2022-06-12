@@ -5,13 +5,13 @@
   position: absolute;
   top: 1610px;
   opacity: 0.8;
-  transition: 250ms;
+  transition: $Transition;
   overflow: hidden;
   transform: translateY(100%);
 }
 
 .p-thumb {
-  font-family: "Roboto";
+  font-family: $primaryFont;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -20,6 +20,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   opacity: 1;
-  color: #ffffff;
+  color: $secondarytextColor;
   padding-top: 27px;
 }

@@ -24,7 +24,7 @@
   left: 50%;
   min-height: 581px;
   min-width: 528px;
-  background-color: #ffffff;
+  background-color: $secondarytextColor;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms linear;
   border-radius: 3px;
@@ -39,11 +39,11 @@
   cursor: pointer;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: #ffffff;
+  background-color: $secondarytextColor;
 }
 .modal-close :focus,
 .modal-close :hover {
-  fill: #2196f3;
+  fill: $primaryColor;
   transition: 250ms;
 }
 

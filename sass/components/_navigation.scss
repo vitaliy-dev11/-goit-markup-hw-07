@@ -9,18 +9,18 @@
   margin-left: 90px;
 }
 .studio-item :visited {
-  color: #2196f3;
+  color: $primaryColor;
 }
 .studio-trade {
-  color: #2196f3;
+  color: $primaryColor;
   position: relative;
 }
 .portfolio-item :hover {
-  color: #2196f3;
+  color: $primaryColor;
   transition: all 250ms;
 }
 .kontakt-item :hover {
-  color: #2196f3;
+  color: $primaryColor;
   transition: 250ms;
 }
 .studio-trade::after {
@@ -31,7 +31,7 @@
   height: 4px;
   bottom: 0px;
   left: 0px;
-  background-color: #2196f3;
+  background-color: $primaryColor;
   border-radius: 2px;
 }
 
@@ -51,14 +51,14 @@
   display: flex;
 }
 .studio-trade {
-  color: #212121;
+  color: $primarytradeColor;
   text-decoration: none;
 }
 .portfolio-trade {
-  color: #212121;
+  color: $primarytradeColor;
   text-decoration: none;
 }
 .kontakt-trade {
-  color: #212121;
+  color: $primarytradeColor;
   text-decoration: none;
 }

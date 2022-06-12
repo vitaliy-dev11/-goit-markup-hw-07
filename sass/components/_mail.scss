@@ -1,5 +1,5 @@
-.mail-trade {
-  color: #757575;
+.mail-link {
+  color: $primarytextColor;
   text-decoration: none;
   margin-right: 0px;
   margin-left: 10px;
@@ -9,12 +9,14 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  margin-right: 20px;
 }
-.mail-trade {
+
+.mail-link {
   margin-left: 10px;
 }
 .mail-item :hover {
-  color: #2196f3;
+  color: $primaryColor;
 }
 .p-mail {
   margin-left: 10px;
@@ -26,10 +28,10 @@
   margin-left: 10px;
   vertical-align: middle;
 }
-.kontakt-items .mail-trade:hover,
-.kontakt-items .mail-trade:focus {
-  color: #2196f3;
-  fill: #2196f3;
+.kontakt-items .mail-link:hover,
+.kontakt-items .mail-link:focus {
+  color: $primaryColor;
+  fill: $primaryColor;
   transition: 250ms;
 }
 .foot-logo {
@@ -40,7 +42,7 @@
   font-size: 26px;
   margin-left: 100px;
 }
-.mail-trade {
+.mail-link {
   display: flex;
 }
 .mail-item {

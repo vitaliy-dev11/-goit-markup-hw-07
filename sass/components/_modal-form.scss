@@ -7,9 +7,8 @@
   text-align: center;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #212121;
+  color: $primarytradeColor;
   margin-top: 40px;
-  
 }
 .f-input {
   margin-top: 5px;
@@ -24,17 +23,17 @@
 }
 .f-input:focus {
   transition: 250ms;
-  border-color: #2196f3;
-  fill: #2196f3;
+  border-color: $primaryColor;
+  fill: $primaryColor;
 }
 .f-input:focus + .svg-lable {
-  fill: #2196f3;
-  color: #2196f3;
+  fill: $primaryColor;
+  color: $primaryColor;
   transition: 250ms;
 }
 
 .f-modal-svg :focus {
-  fill: #2196f3;
+  fill: $primaryColor;
 }
 .f-form {
   text-align: center;
@@ -46,7 +45,7 @@
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: #757575;
+  color: $primarytextColor;
   margin-left: 34px;
 }
 .s-input {
@@ -64,7 +63,7 @@
   font-size: 14px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: #757575;
+  color: $primarytextColor;
 }
 .s-input {
   padding-top: 16px;
@@ -72,8 +71,8 @@
 }
 .s-input:focus {
   transition: 250ms;
-  border-color: #2196f3;
-  fill: #2196f3;
+  border-color: $primaryColor;
+  fill: $primaryColor;
 }
 .form-input {
   margin-left: 40px;

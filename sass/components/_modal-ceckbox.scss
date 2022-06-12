@@ -20,7 +20,7 @@
   display: inline-block;
   width: 12px;
   height: 11px;
-  border: 2px solid #000000;
+  border: 2px solid $logoColor;
   border-radius: 2px;
   margin-right: 8px;
 
@@ -30,25 +30,25 @@
 }
 
 .checkbox:checked + .policy-box {
-  background-color: #2196f3;
+  background-color: $primaryColor;
   background-image: url(/svg/galochka.svg);
   vertical-align: middle;
   background-repeat: no-repeat;
   vertical-align: middle;
   background-size: contain;
   background-origin: border-box;
-  border-color: #2196f3;
+  border-color: $primaryColor;
 }
 
 .checkbox:focus + .policy-box {
-  border-color: #2196f3;
+  border-color: $primaryColor;
 }
 
 .modal .policy-text {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #757575;
+  color: $primarytextColor;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.715;
@@ -64,14 +64,14 @@
 .policy-link {
   display: inline-block;
   text-decoration-line: underline;
-  color: #2196f3;
+  color: $primaryColor;
 }
 .modal-btn {
   margin-top: 30px;
   margin-left: 30%;
   margin-bottom: 35px;
-  color: #ffffff;
-  background-color: #188ce8;
+  color: $secondarytextColor;
+  background-color: $primaryColor;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   width: 200px;
   height: 50px;

@@ -10,9 +10,23 @@
   height: 31px;
   left: 215px;
   top: 24px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    margin-left: 15px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+  }
 }
 .f-logo {
-  color: #2196f3;
+  color: $primaryColor;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 145px;
@@ -21,7 +35,7 @@
   letter-spacing: 0.03em;
 }
 .s-logo {
-  color: #000000;
+  color: $logoColor;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 145px;
@@ -29,9 +43,18 @@
   line-height: 31px;
   letter-spacing: 0.03em;
 }
+
+.foot-logo {
+  padding-top: 75px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  margin-left: 100px;
+}
 .f-footlogo {
-  color: #2196f3;
+  color: $primaryColor;
 }
 .s-footlogo {
-  color: #ffffff;
+  color: $secondarytextColor;
 }

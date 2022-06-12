@@ -10,7 +10,7 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: $secondarytextColor;
   margin-left: 5px;
 }
 
@@ -27,7 +27,7 @@
 .join-icon {
   width: 20px;
   height: 20px;
-  fill: #ffffff;
+  fill: $secondarytextColor;
 }
 
 .join-link {
@@ -42,11 +42,11 @@
 
 .join-link:hover,
 .join-link:focus {
-  background-color: #2196f3;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: $primaryColor;
+  filter: $Filter;
   transition: 250ms;
 }
 .join-icon :hover,
 .join-icon :focus {
-  fill: #ffffff;
+  fill: $secondarytextColor;
 }

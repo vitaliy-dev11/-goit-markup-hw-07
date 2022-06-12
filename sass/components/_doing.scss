@@ -1,15 +1,18 @@
 .work-subjekt {
-  margin-top: 94px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  margin-bottom: 100px;
+  @extend %work-subjekt;
 }
 .work-items {
   text-align: center;
   display: flex;
   justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+  .work-items {
+    display: none;
+  }
+
+  .work-subjekt {
+    display: none;
+  }
 }

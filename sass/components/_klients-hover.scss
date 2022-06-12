@@ -1,30 +1,18 @@
 .si-klient:hover {
-  fill: #2196f3;
-  border-color: #2196f3;
-  transition: 250ms;
+  @extend %clients;
 }
 .fi-klient:hover {
-  fill: #2196f3;
-  border-color: #2196f3;
-  transition: 250ms;
+ @extend %clients;
 }
 .fo-klient:hover {
-  fill: #2196f3;
-  border-color: #2196f3;
-  transition: 250ms;
+  @extend %clients;
 }
 .t-klient:hover {
-  fill: #2196f3;
-  border-color: #2196f3;
-  transition: 250ms;
+  @extend %clients;
 }
 .s-klient:hover {
-  fill: #2196f3;
-  border-color: #2196f3;
-  transition: 250ms;
+  @extend %clients;
 }
 .f-klient:hover {
-  fill: #2196f3;
-  border-color: #2196f3;
-  transition: 250ms;
+  @extend %clients;
 }

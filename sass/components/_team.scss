@@ -11,9 +11,10 @@
 }
 .svg-warning {
   display: flex;
+  justify-content: center;
 }
 .komand-svg {
-  background: #ffffff;
+  background: $secondarytextColor;
 }
 .komand-svg {
   align-items: center;
@@ -22,21 +23,28 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: $secondarytextColor;
   margin-bottom: 42px;
   margin-top: 28px;
   margin-left: 13px;
   margin-right: 10px;
-  fill: #afb1b8;
+  fill: $cardBorder;
 }
 
 .second-section {
-  background-color: #f5f4fa;
+  background-color: $backgraundColor;
   height: 708px;
 }
 
+@media screen and (max-width: 480px) {
+  .second-section {
+    background-color: $backgraundColor;
+    height: 100%;
+  }
+}
+
 .name-item {
-  color: #212121;
+  color: $primarytradeColor;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -46,7 +54,7 @@
   margin-bottom: 10px;
 }
 .work-item {
-  color: #757575;
+  color: $backgraundColor;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -59,10 +67,61 @@
   justify-content: space-around;
   text-align: center;
 }
+@media screen and (max-width: 480px) {
+  .komand-warning {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 .img-item {
-  background-color: #ffffff;
+  background-color: $secondarytextColor;
   border-radius: 4px;
   margin-bottom: 94px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: $comandFilter;
+}
+
+@media screen and (max-width: 480px) {
+  .img-item {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .img-item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Demianenko-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Repina-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Tarasow-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Ermakow-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Ermakov-items {
+    padding-bottom: 30px;
+  }
 }
