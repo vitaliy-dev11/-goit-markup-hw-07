@@ -1,6 +1,12 @@
 body {
   box-sizing: border-box;
   margin-right: 0px;
+  max-width: 1600px;
+  
+}
+
+@media screen and (max-width){
+  
 }
 ul {
   list-style: none;

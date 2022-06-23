@@ -2,6 +2,12 @@
   margin-left: 70px;
 }
 
+@media screen  and (max-width: 480px){
+  .join {
+    margin-left: 0px;
+  }
+}
+
 .join-title {
   font-family: "Roboto";
   font-style: normal;
@@ -13,11 +19,35 @@
   color: $secondarytextColor;
   margin-left: 5px;
 }
+@media screen and (max-width: 480px){
+  .join-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $secondarytextColor;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 60px;
+  }
+}
 
 .join-list {
   display: flex;
   fill: #fff;
   margin-top: 20px;
+}
+
+@media screen and (max-width:480px){
+  .join-list {
+    display: flex;
+    fill: #fff;
+    margin-top: 20px;
+    justify-content: center;
+  }
 }
 
 .join-list :not(:last-child) {

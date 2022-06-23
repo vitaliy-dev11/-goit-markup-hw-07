@@ -16,13 +16,44 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
     />
   </head>
-  
   <body>
      <header class="header">
       <div class="contaner">
+        <div class="head_container">
         <p class="logo">
           <span class="f-logo">Web</span><span class="s-logo">Studio</span>
         </p>
+        <div class="menu">
+        <button class="menu-button is-open" type="button" aria-expanded="false" data-menu-button>
+          <svg class="menu-svg">
+            <use class="icon_menu"  href="./images/symbol-defs.svg#icon-menu"></use>
+            <use class="icon_cross" href="./images/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+        <!--  -->
+        <div class="menu_container is-open " data-menu>
+          <ul class="list">
+            <li class="menu_studio-item">
+              <a class="menu_studio-trade" href="">Студия</a>
+            </li>
+            <li class="menu_portfolio-item">
+              <a class="menu_portfolio-trade" href="/portfolio.html">Портфолио</a>
+            </li>
+            <li class="menu_kontakt-item">
+              <a class="menu_kontakt-trade" href="">Контакты</a>
+            </li>
+            <li class="menu_mobile"><p class="menu_mail-link"> +38 096 111 11 11</p></li>
+            <li class="menu_enveloper"><p class="menu_e-mail-link"> info@devstudio.com</p></li>
+          </ul>
+          <ul class="mail_link">
+            <li class="link_item"><a class="menu_link" href=""><p>Instagram</p></a></li>
+            <li class="link_item"><a class="menu_link"  href=""><p>Twitter</p></a></li>
+            <li class="link_item"><a class="menu_link"  href=""><p>Facebook</p></a></li>
+            <li><a class="linkedin_link" href=""><p>LinkedIn</p></a></li>
+          </ul>
+        </div>
+      </div>
+      </div>
       <div class="media-header">
         <div class="second-container">
         <ul class="list">
@@ -55,7 +86,7 @@
                 <path
                   d="M14.5 0H1.50001C0.672854 0 0 0.672853 0 1.50001V10.5C0 11.3271 0.672854 12 1.50001 12H14.5C15.3271 12 16 11.3271 16 10.5V1.50001C16 0.672853 15.3271 0 14.5 0ZM14.5 0.999994C14.5679 0.999994 14.6325 1.01409 14.6916 1.0387L8 6.83838L1.30833 1.0387C1.36742 1.01412 1.43204 0.999994 1.49998 0.999994H14.5ZM14.5 11H1.50001C1.22414 11 0.999996 10.7759 0.999996 10.5V2.09521L7.67236 7.87792C7.76661 7.95944 7.8833 7.99999 8 7.99999C8.1167 7.99999 8.23339 7.95948 8.32764 7.87792L15 2.09521V10.5C15 10.7759 14.7759 11 14.5 11Z"
                   
-                /></label>
+                />
               </svg>
             </span>
             
@@ -84,11 +115,13 @@
          
       </div>
       </div>
+      
      </div>
+     
       </div>
       
       </header> 
-    
+    <div class="mobile-warning">
     <main class="main">
       <section class="hero-section">
         <div class="hero-warning">
@@ -709,7 +742,7 @@
         </div>
       </section>
 
-      <section class="t-section">
+      <!-- <section class="t-section">
         <h3 class="klient-title">Постоянные клиенты</h3>
         <div class="klients">
           <div class="client-contaner">
@@ -836,9 +869,9 @@
           </div>
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
-    <!--<footer class="footer">
+     <footer class="footer">
       <div class="foot-warning">
       <p class="foot-logo">
         <span class="f-footlogo">Web</span
@@ -898,16 +931,18 @@
         <form class="foot-form" action="">
           <p class="inp-text">Подпишитесь на рассылку</p> 
         <input class="foot-input" placeholder="E-mail"  type="" name="E-mail">
-        <button class="foot-button">Подписаться</button>
-        <svg class="inp-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z" fill="white"/>
-        </svg>
+        <button class="foot-button">Подписаться
+          <svg class="inp-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z" fill="white"/>
+            </svg>
+        </button>
+        
        </form>
        </div>
        
       </footer>
-       
-          <div class="backdrop is-hidden" data-modal>
+    </div>
+         <div class="backdrop is-hidden" data-modal>
           
       <div class="modal">
         <p class="modal-text">Оставьте свои данные, мы вам перезвоним</p >
@@ -962,8 +997,8 @@
       </div>
     </div>
     
-      
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
-  -->
+ 
   </body>
 </html> 

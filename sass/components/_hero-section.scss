@@ -1,5 +1,6 @@
 .hero-section {
   height: 600px;
+  
 
   background-image: linear-gradient(
       to right,
@@ -8,6 +9,7 @@
     ),
     url(/images/background-hero-tab@2-min.jpg);
   margin-top: 30px;
+  background-repeat: no-repeat;
 }
 .hero-warning {
   padding-top: 200px;

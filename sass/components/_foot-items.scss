@@ -20,6 +20,19 @@
   margin-top: 20px;
   margin-bottom: 9px;
 }
+@media screen and (max-width: 480px){
+  .address {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: $secondarytextColor;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 9px;
+    text-align: center;
+  }
+}
 .footer-items {
   font-family: "Roboto";
   font-style: normal;
@@ -35,6 +48,15 @@
   font-size: 14px;
   line-height: 24px;
   margin-left: 100px;
+}
+
+@media screen and (max-width: 480px){
+  .foot-mail{
+  margin-left: 0px;
+  display: flex;
+  justify-content: baseline;
+  justify-content: center;
+  }
 }
 
 .foot-link {

@@ -20,13 +20,45 @@
   <body>
          <header class="header">
       <div class="warning-first">
-        <p class="logo">
-          <span class="f-logo">Web</span><span class="s-logo">Studio</span>
-        </p>
-
+        <div class="head_container">
+          <p class="logo">
+            <span class="f-logo">Web</span><span class="s-logo">Studio</span>
+          </p>
+          <div class="menu">
+          <button class="menu-button is-open" type="button" aria-expanded="false" data-menu-button>
+            <svg class="menu-svg">
+              <use class="icon_menu"  href="./images/symbol-defs.svg#icon-menu"></use>
+              <use class="icon_cross" href="./images/symbol-defs.svg#icon-close"></use>
+            </svg>
+          </button>
+          
+          <div class="menu_container is-open " data-menu>
+            <ul class="menu_list">
+              <li class="menu_studio-item">
+                <a class="menu_studio-trade" href="">Студия</a>
+              </li>
+              <li class="menu_portfolio-item">
+                <a class="menu_portfolio-trade" href="/portfolio.html">Портфолио</a>
+              </li>
+              <li class="menu_kontakt-item">
+                <a class="menu_kontakt-trade" href="">Контакты</a>
+              </li>
+              <li class="menu_mobile"><p class="menu_mail-link"> +38 096 111 11 11</p></li>
+              <li class="menu_enveloper"><p class="menu_e-mail-link"> info@devstudio.com</p></li>
+            </ul>
+            <ul class="mail_link">
+              <li class="link_item"><a class="menu_link" href=""><p>Instagram</p></a></li>
+              <li class="link_item"><a class="menu_link"  href=""><p>Twitter</p></a></li>
+              <li class="link_item"><a class="menu_link"  href=""><p>Facebook</p></a></li>
+              <li><a class="linkedin_link" href=""><p>LinkedIn</p></a></li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        <div class="media-header">
         <ul class="list">
           <li class="studio-item">
-            <a class="studio-trade" href="index.html">Студия</a>
+            <a class="studio-trade" href="/index.html">Студия</a>
           </li>
           <li class="portfolio-item">
             <a class="portfolio-trade" href="portfolio.html">Портфолио</a>
@@ -52,7 +84,7 @@
                 <path
                   d="M14.5 0H1.50001C0.672854 0 0 0.672853 0 1.50001V10.5C0 11.3271 0.672854 12 1.50001 12H14.5C15.3271 12 16 11.3271 16 10.5V1.50001C16 0.672853 15.3271 0 14.5 0ZM14.5 0.999994C14.5679 0.999994 14.6325 1.01409 14.6916 1.0387L8 6.83838L1.30833 1.0387C1.36742 1.01412 1.43204 0.999994 1.49998 0.999994H14.5ZM14.5 11H1.50001C1.22414 11 0.999996 10.7759 0.999996 10.5V2.09521L7.67236 7.87792C7.76661 7.95944 7.8833 7.99999 8 7.99999C8.1167 7.99999 8.23339 7.95948 8.32764 7.87792L15 2.09521V10.5C15 10.7759 14.7759 11 14.5 11Z"
                   
-                /></label>
+                />
               </svg>
             </span>
             
@@ -78,7 +110,7 @@
             </a>
           </li>
           </ul>
-               
+        </div>     
       </div>
       </div>
       </header> 
@@ -357,7 +389,7 @@
         </div>
                 <div class="sil-div">
         
-        <!-- <p class="inp-text">Подпишитесь на рассылку</p> -->
+         <p class="inp-text">Подпишитесь на рассылку</p> 
         
         <form class="foot-form" action="">
           <p class="inp-text">Подпишитесь на рассылку</p> 
@@ -369,6 +401,6 @@
        </form>
        </div>
       </footer>
-       
+       <script src="js/menu.js"></script>
   </body>
 </html>
