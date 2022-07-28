@@ -51,8 +51,19 @@
 }
 
 @media screen and (min-width: 481px){
-    .menu{
+    .menu_container.is-open{
      display: none;
+    }
+
+    .menu{
+        display: none;
     }
 }
 
+.icon_menu:hover{
+  fill: $primaryColor;
+}
+
+.icon_cross:hover{
+    fill: $primaryColor;
+}

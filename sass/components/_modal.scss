@@ -33,10 +33,12 @@
 @media screen and (max-width: 480px){
   .modal {
   min-width: 95%;
-  
-  
   }
 
+  .backdrop{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   
 }
 

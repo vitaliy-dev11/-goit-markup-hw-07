@@ -379,6 +379,8 @@ body {
           box-sizing: border-box;
   margin-right: 0px;
   max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul {
@@ -1663,6 +1665,10 @@ ul {
   .modal {
     min-width: 95%;
   }
+  .backdrop {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .modal-close {
@@ -1816,10 +1822,8 @@ ul {
   vertical-align: middle;
 }
 
-@media screen and (max-width: 768px) {
-  .f-form {
-    position: relative;
-  }
+.f-form {
+  position: relative;
 }
 
 .modal-policy {
@@ -2020,8 +2024,19 @@ ul {
 }
 
 @media screen and (min-width: 481px) {
+  .menu_container.is-open {
+    display: none;
+  }
   .menu {
     display: none;
   }
+}
+
+.icon_menu:hover {
+  fill: #2196f3;
+}
+
+.icon_cross:hover {
+  fill: #2196f3;
 }
 /*# sourceMappingURL=main.css.map */
